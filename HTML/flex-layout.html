@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 2px solid green;
+            justify-content: space-between;
+        }
+        .header{
+            width: 100%;
+            height: 10vh;
+            border: 1px dotted red;
+            background-color: aqua;
+            text-align: center;
+        }
+        .nav{
+            width: 100%;
+            height: 5vh;
+            border: 1px dotted red;
+            background-color:blueviolet;
+        }
+        a{
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .menu{
+            width: 15%;
+            height: 75vh;
+            border: 1px dotted red;
+            background-color: #44ff55;
+        }
+        .content{
+            width: 85%;
+            height: 75vh;
+            border: 1px dotted red;
+            background-color: #557799;
+        }
+        .footer{
+            width: 100%;
+            height: 10vh;
+            border: 1px dotted red;
+            background-color: #996655;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="flex-container">
+    <div class="header" id="div-1">
+        <h1>ABES ENGINEERING COLLEGE GHAZIABAD</h1>
+    </div>
+    <div class="nav" id="div-2">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">contact Us</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign out</a></li>
+        </ul>
+    </div>
+    <div class="menu" id="div-3"></div>
+    <div class="content" id="div-4"></div>
+    <div class="footer" id="div-5">
+        <h1>DESIGN AND DEVELOPED BY &copy; FSD TEAM</h1>
+    </div>
+   </div>
+
+
+</body>
+</html>
